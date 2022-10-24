@@ -11,7 +11,7 @@ import SwiftUI
 struct Water_FlowersApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WaterFlowersTabView()
         }
     }
 }

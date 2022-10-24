@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Water Flowers
+
+  Created by Vladislav Bondarev on 21.11.2021.
+  
+*/
+
+// MARK: - TabBar
+"Main_Tab_Name" = "Your Flowers";
+"Settings_Tab_Name" = "Settings";
+
+// MARK: - MainView
+

@@ -7,18 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0CE592275BF02C000C0E12 /* DataMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0CE591275BF02C000C0E12 /* DataMock.swift */; };
+		AC0CE594275BF274000C0E12 /* MyFlowersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0CE593275BF274000C0E12 /* MyFlowersView.swift */; };
+		AC0CE597275BF49B000C0E12 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0CE596275BF49B000C0E12 /* CustomButton.swift */; };
+		AC0CE599275BF764000C0E12 /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0CE598275BF764000C0E12 /* ButtonType.swift */; };
+		AC0CE59C275D0A58000C0E12 /* NavBarGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0CE59B275D0A58000C0E12 /* NavBarGradient.swift */; };
+		AC9C333427872DFF00BC3472 /* FlowerAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C333327872DFF00BC3472 /* FlowerAddView.swift */; };
+		AC9C33362787359700BC3472 /* FlowerAddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C33352787359700BC3472 /* FlowerAddViewModel.swift */; };
+		AC9C3C542753A90100D43BCE /* TabItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C3C532753A90100D43BCE /* TabItemData.swift */; };
+		AC9C3C562753A93F00D43BCE /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C3C552753A93F00D43BCE /* TabItemView.swift */; };
+		AC9C3C582753AC9100D43BCE /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C3C572753AC9100D43BCE /* TabBarView.swift */; };
+		AC9C3C5B2754A34C00D43BCE /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C3C5A2754A34C00D43BCE /* CustomTabView.swift */; };
+		AC9C3C5E2754ACBD00D43BCE /* TabType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C3C5D2754ACBD00D43BCE /* TabType.swift */; };
+		AC9C3C602754ADAA00D43BCE /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C3C5F2754ADAA00D43BCE /* MainTabView.swift */; };
+		ACBB5595277F6A0700C2C654 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB5594277F6A0700C2C654 /* Extensions.swift */; };
+		ACBB55972780996300C2C654 /* MyFlowersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB55962780996300C2C654 /* MyFlowersViewModel.swift */; };
+		ACBB559A2780F9C400C2C654 /* FlowerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB55992780F9C400C2C654 /* FlowerDetailView.swift */; };
 		ACD3AD3F274A51F500621FE9 /* Water_FlowersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3AD3E274A51F500621FE9 /* Water_FlowersApp.swift */; };
-		ACD3AD41274A51F500621FE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3AD40274A51F500621FE9 /* ContentView.swift */; };
 		ACD3AD43274A51F700621FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD3AD42274A51F700621FE9 /* Assets.xcassets */; };
 		ACD3AD46274A51F700621FE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD3AD45274A51F700621FE9 /* Preview Assets.xcassets */; };
+		ACD3AD57274A555400621FE9 /* WaterFlowersTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3AD56274A555400621FE9 /* WaterFlowersTabView.swift */; };
+		ACD3AD5C274A59AA00621FE9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACD3AD5E274A59AA00621FE9 /* Localizable.strings */; };
+		ACD3AD64274ACD5A00621FE9 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3AD63274ACD5A00621FE9 /* View+Extensions.swift */; };
+		ACFA0215277B73EF005A2C61 /* FlowerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA0214277B73EF005A2C61 /* FlowerModel.swift */; };
+		ACFA0217277B763E005A2C61 /* FlowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA0216277B763E005A2C61 /* FlowerCell.swift */; };
+		ACFA021A277E52B8005A2C61 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA0219277E52B8005A2C61 /* BlurView.swift */; };
+		ACFA021F277EF8B0005A2C61 /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA021E277EF8B0005A2C61 /* Image+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC0CE591275BF02C000C0E12 /* DataMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMock.swift; sourceTree = "<group>"; };
+		AC0CE593275BF274000C0E12 /* MyFlowersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFlowersView.swift; sourceTree = "<group>"; };
+		AC0CE596275BF49B000C0E12 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		AC0CE598275BF764000C0E12 /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		AC0CE59B275D0A58000C0E12 /* NavBarGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarGradient.swift; sourceTree = "<group>"; };
+		AC9C333327872DFF00BC3472 /* FlowerAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerAddView.swift; sourceTree = "<group>"; };
+		AC9C33352787359700BC3472 /* FlowerAddViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerAddViewModel.swift; sourceTree = "<group>"; };
+		AC9C3C532753A90100D43BCE /* TabItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemData.swift; sourceTree = "<group>"; };
+		AC9C3C552753A93F00D43BCE /* TabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
+		AC9C3C572753AC9100D43BCE /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		AC9C3C5A2754A34C00D43BCE /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		AC9C3C5D2754ACBD00D43BCE /* TabType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabType.swift; sourceTree = "<group>"; };
+		AC9C3C5F2754ADAA00D43BCE /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		ACBB5594277F6A0700C2C654 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		ACBB55962780996300C2C654 /* MyFlowersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFlowersViewModel.swift; sourceTree = "<group>"; };
+		ACBB55992780F9C400C2C654 /* FlowerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerDetailView.swift; sourceTree = "<group>"; };
 		ACD3AD3B274A51F500621FE9 /* Water Flowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Water Flowers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD3AD3E274A51F500621FE9 /* Water_FlowersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water_FlowersApp.swift; sourceTree = "<group>"; };
-		ACD3AD40274A51F500621FE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACD3AD42274A51F700621FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD3AD45274A51F700621FE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACD3AD56274A555400621FE9 /* WaterFlowersTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFlowersTabView.swift; sourceTree = "<group>"; };
+		ACD3AD5D274A59AA00621FE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ACD3AD60274A59D800621FE9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ACD3AD63274ACD5A00621FE9 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		ACFA0214277B73EF005A2C61 /* FlowerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerModel.swift; sourceTree = "<group>"; };
+		ACFA0216277B763E005A2C61 /* FlowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerCell.swift; sourceTree = "<group>"; };
+		ACFA0219277E52B8005A2C61 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		ACFA021E277EF8B0005A2C61 /* Image+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +77,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC0CE595275BF48B000C0E12 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				AC0CE596275BF49B000C0E12 /* CustomButton.swift */,
+				AC0CE598275BF764000C0E12 /* ButtonType.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		AC0CE59A275D0A32000C0E12 /* Colors And Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				AC0CE59B275D0A58000C0E12 /* NavBarGradient.swift */,
+			);
+			path = "Colors And Gradients";
+			sourceTree = "<group>";
+		};
+		AC9C333227872DCB00BC3472 /* FlowerAdd */ = {
+			isa = PBXGroup;
+			children = (
+				AC9C333327872DFF00BC3472 /* FlowerAddView.swift */,
+				AC9C33352787359700BC3472 /* FlowerAddViewModel.swift */,
+			);
+			path = FlowerAdd;
+			sourceTree = "<group>";
+		};
+		AC9C3C522753A8D200D43BCE /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				AC9C3C532753A90100D43BCE /* TabItemData.swift */,
+				AC9C3C572753AC9100D43BCE /* TabBarView.swift */,
+				AC9C3C552753A93F00D43BCE /* TabItemView.swift */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		AC9C3C5C2754ACA700D43BCE /* CustomTabView */ = {
+			isa = PBXGroup;
+			children = (
+				AC9C3C5A2754A34C00D43BCE /* CustomTabView.swift */,
+				AC9C3C5F2754ADAA00D43BCE /* MainTabView.swift */,
+				AC9C3C5D2754ACBD00D43BCE /* TabType.swift */,
+			);
+			path = CustomTabView;
+			sourceTree = "<group>";
+		};
+		ACBB55982780F99400C2C654 /* FlowerDetail */ = {
+			isa = PBXGroup;
+			children = (
+				ACBB55992780F9C400C2C654 /* FlowerDetailView.swift */,
+			);
+			path = FlowerDetail;
+			sourceTree = "<group>";
+		};
 		ACD3AD32274A51F500621FE9 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +150,12 @@
 		ACD3AD3D274A51F500621FE9 /* Water Flowers */ = {
 			isa = PBXGroup;
 			children = (
+				ACD3AD55274A534900621FE9 /* Components */,
+				ACD3AD54274A52FD00621FE9 /* Model */,
+				ACD3AD4C274A524D00621FE9 /* Screens */,
 				ACD3AD3E274A51F500621FE9 /* Water_FlowersApp.swift */,
-				ACD3AD40274A51F500621FE9 /* ContentView.swift */,
+				ACD3AD56274A555400621FE9 /* WaterFlowersTabView.swift */,
+				ACD3AD5E274A59AA00621FE9 /* Localizable.strings */,
 				ACD3AD42274A51F700621FE9 /* Assets.xcassets */,
 				ACD3AD44274A51F700621FE9 /* Preview Content */,
 			);
@@ -63,8 +166,60 @@
 			isa = PBXGroup;
 			children = (
 				ACD3AD45274A51F700621FE9 /* Preview Assets.xcassets */,
+				AC0CE591275BF02C000C0E12 /* DataMock.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACD3AD4C274A524D00621FE9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AC9C333227872DCB00BC3472 /* FlowerAdd */,
+				ACBB55982780F99400C2C654 /* FlowerDetail */,
+				AC9C3C5C2754ACA700D43BCE /* CustomTabView */,
+				ACD3AD4D274A525900621FE9 /* MyFlowers */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		ACD3AD4D274A525900621FE9 /* MyFlowers */ = {
+			isa = PBXGroup;
+			children = (
+				AC0CE593275BF274000C0E12 /* MyFlowersView.swift */,
+				ACBB55962780996300C2C654 /* MyFlowersViewModel.swift */,
+				ACFA0216277B763E005A2C61 /* FlowerCell.swift */,
+			);
+			path = MyFlowers;
+			sourceTree = "<group>";
+		};
+		ACD3AD54274A52FD00621FE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACFA0214277B73EF005A2C61 /* FlowerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACD3AD55274A534900621FE9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ACFA0218277E52A1005A2C61 /* Views */,
+				AC0CE59A275D0A32000C0E12 /* Colors And Gradients */,
+				AC0CE595275BF48B000C0E12 /* Buttons */,
+				AC9C3C522753A8D200D43BCE /* TabBarView */,
+				ACD3AD63274ACD5A00621FE9 /* View+Extensions.swift */,
+				ACFA021E277EF8B0005A2C61 /* Image+Extensions.swift */,
+				ACBB5594277F6A0700C2C654 /* Extensions.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		ACFA0218277E52A1005A2C61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACFA0219277E52B8005A2C61 /* BlurView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +238,8 @@
 			dependencies = (
 			);
 			name = "Water Flowers";
+			packageProductDependencies = (
+			);
 			productName = "Water Flowers";
 			productReference = ACD3AD3B274A51F500621FE9 /* Water Flowers.app */;
 			productType = "com.apple.product-type.application";
@@ -109,8 +266,11 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = ACD3AD32274A51F500621FE9;
+			packageReferences = (
+			);
 			productRefGroup = ACD3AD3C274A51F500621FE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACD3AD46274A51F700621FE9 /* Preview Assets.xcassets in Resources */,
+				ACD3AD5C274A59AA00621FE9 /* Localizable.strings in Resources */,
 				ACD3AD43274A51F700621FE9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,12 +298,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD3AD41274A51F500621FE9 /* ContentView.swift in Sources */,
 				ACD3AD3F274A51F500621FE9 /* Water_FlowersApp.swift in Sources */,
+				AC0CE599275BF764000C0E12 /* ButtonType.swift in Sources */,
+				AC0CE594275BF274000C0E12 /* MyFlowersView.swift in Sources */,
+				ACBB55972780996300C2C654 /* MyFlowersViewModel.swift in Sources */,
+				AC9C3C582753AC9100D43BCE /* TabBarView.swift in Sources */,
+				AC9C333427872DFF00BC3472 /* FlowerAddView.swift in Sources */,
+				ACFA0215277B73EF005A2C61 /* FlowerModel.swift in Sources */,
+				AC0CE597275BF49B000C0E12 /* CustomButton.swift in Sources */,
+				AC0CE59C275D0A58000C0E12 /* NavBarGradient.swift in Sources */,
+				ACBB5595277F6A0700C2C654 /* Extensions.swift in Sources */,
+				AC0CE592275BF02C000C0E12 /* DataMock.swift in Sources */,
+				AC9C3C542753A90100D43BCE /* TabItemData.swift in Sources */,
+				ACFA021F277EF8B0005A2C61 /* Image+Extensions.swift in Sources */,
+				AC9C3C562753A93F00D43BCE /* TabItemView.swift in Sources */,
+				ACFA0217277B763E005A2C61 /* FlowerCell.swift in Sources */,
+				AC9C3C5B2754A34C00D43BCE /* CustomTabView.swift in Sources */,
+				AC9C3C5E2754ACBD00D43BCE /* TabType.swift in Sources */,
+				ACFA021A277E52B8005A2C61 /* BlurView.swift in Sources */,
+				ACD3AD64274ACD5A00621FE9 /* View+Extensions.swift in Sources */,
+				AC9C33362787359700BC3472 /* FlowerAddViewModel.swift in Sources */,
+				ACD3AD57274A555400621FE9 /* WaterFlowersTabView.swift in Sources */,
+				AC9C3C602754ADAA00D43BCE /* MainTabView.swift in Sources */,
+				ACBB559A2780F9C400C2C654 /* FlowerDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACD3AD5E274A59AA00621FE9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD3AD5D274A59AA00621FE9 /* en */,
+				ACD3AD60274A59D800621FE9 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ACD3AD47274A51F700621FE9 /* Debug */ = {
